@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_uploadFragm"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Upload" />
+        <item
+            android:id="@+id/nav_shareFragm"
+            android:icon="@drawable/ic_menu_share"
+            android:title="Share" />
+        <item
+            android:id="@+id/nav_newItemsFragm"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="New items" />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Settings" />
+
+        <item
+            android:id="@+id/nav_customizeFragm"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Customize" />
+    </group>
+
+
+
+</menu>

@@ -1,0 +1,41 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.deam.aristocrat.fragments.UploadPhotoFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/rl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        tools:context=".fragments.UploadPhotoFragment"
+        android:background="#f5f1e0"
+        >
+        <ImageView
+            android:layout_width="263dp"
+            android:layout_height="244dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/ic_menu_camera"
+            android:id="@+id/UploadimageView"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="54dp" />
+
+        <Button
+            android:text="Ok"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button"
+            android:layout_marginTop="31dp"
+            android:layout_below="@+id/UploadimageView"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+
+</FrameLayout>

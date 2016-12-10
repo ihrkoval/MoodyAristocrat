@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rl_custom_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="2dp"
+    android:background="#7000"
+    >
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+
+        android:visibility="visible"
+        android:clickable="true">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/ic_menu_gallery"
+            android:id="@+id/GaleryimageButton4"
+            android:shadowDx="3"
+            android:shadowDy="3"
+            android:shadowRadius="6"
+            android:layout_weight="1"
+            android:padding="50dp"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/ic_menu_camera"
+            android:id="@+id/CameraimageButton3"
+            android:shadowColor="#000"
+            android:shadowDx="3"
+            android:shadowDy="3"
+            android:shadowRadius="6"
+            android:layout_weight="1"
+            android:padding="50dp" />
+    </LinearLayout>
+</RelativeLayout>
